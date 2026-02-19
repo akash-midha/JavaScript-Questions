@@ -38,4 +38,6 @@ pipeAns(5);  // 14
 
 const composeAns = compose(addTwo, double);
 composeAns(5);  //12
+
+
 ```
