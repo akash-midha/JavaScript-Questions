@@ -13,7 +13,6 @@ export default function PromiseAny(promises) {
             reject(new AggregateError(aggError, 'All promises were rejected'));
             return;
         }
-
         promises.forEach((pr, idx) => {
             Promise.resolve(pr)
             .then(resolve)
