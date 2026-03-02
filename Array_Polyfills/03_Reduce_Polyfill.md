@@ -28,9 +28,3 @@ Array.prototype.myReduce = function(cb, initialValue){
 }
 
 ```
-This will fail here - 
-
-[ , , 5].reduce((a, b) => a + b); // ✅ 5
-[ , , 5].myReduce((a, b) => a + b); // ❌ TypeError: Array is empty
-
-## Follow-up -? What if we call it on an empty array , write the logic
