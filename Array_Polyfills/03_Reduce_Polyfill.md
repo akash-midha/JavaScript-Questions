@@ -27,4 +27,8 @@ Array.prototype.myReduce = function(cb, initialValue){
     return acc;
 }
 
+
+const arr = [1,2,3,4,5];
+arr.reduce((acc, item, i, arr) => (acc = acc + item), 0)
+
 ```

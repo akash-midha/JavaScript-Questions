@@ -16,4 +16,7 @@ Array.prototype.myFilter = function(cb){
     return result;
 }
 
+const arr = [1,2,3,4,5];
+arr.filter((item) => item>2);
+
 ```
